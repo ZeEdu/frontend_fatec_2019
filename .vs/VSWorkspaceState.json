@@ -1,7 +1,12 @@
 {
   "ExpandedNodes": [
     "",
-    "\\app-store"
+    "\\app-store",
+    "\\app-store\\src",
+    "\\app-store\\src\\app",
+    "\\app-store\\src\\app\\pages",
+    "\\app-store\\src\\app\\pages\\page-home"
   ],
+  "SelectedNode": "\\app-store\\src\\app\\pages\\page-home\\page-home.component.html",
   "PreviewInSolutionExplorer": false
 }
