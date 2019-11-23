@@ -26,6 +26,6 @@ export class ClienteService extends BaseService {
   }
 
   public Consultar(): Observable<Cliente> {
-    return null;
+    return this.HttpClient.get<Cliente>(this.EndPoint("Cliente"), {headers: this.HeaderAuthorization()});
   }
 }
